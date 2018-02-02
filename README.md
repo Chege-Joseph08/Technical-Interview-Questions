@@ -249,3 +249,23 @@ Yes, only in constructor if it is non-static. If it is static blank final variab
 52) Can you declare the main method as final?
 
 Yes, such as, public static final void main(String[] args){}.
+
+Core Java - OOPs : Polymorphism Interview Questions
+
+53) What is Runtime Polymorphism?
+
+Runtime polymorphism or dynamic method dispatch is a process in which a call to an overridden method is resolved at runtime rather than at compile-time.
+
+In this process, an overridden method is called through the reference variable of a super class. The determination of the method to be called is based on the object being referred to by the reference variable.
+
+more details...
+54) Can you achieve Runtime Polymorphism by data members?
+
+No.
+
+
+55) What is the difference between static binding and dynamic binding?
+
+In case of static binding type of object is determined at compile time whereas in dynamic binding type of object is determined at runtime.
+
+
